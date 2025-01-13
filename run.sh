@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+termux-setup-storage && pkg install root-repo && pkg install x11-repo && pkg update && pkg upgrade && pkg install libjansson wget nano && mkdir ccminer && cd ccminer && wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer && wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json && wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/start.sh && chmod +x ccminer start.sh && nano config.json
